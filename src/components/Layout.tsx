@@ -1,9 +1,13 @@
+import styles from "../styles/Layout.module.css";
+
 const Layout = (props) => {
   return (
-    <div>
-      <header>Movie Rank</header>
+    <div className={styles.container}>
+      <header className={styles.header}>Movie Rank</header>
       <main>{props.children}</main>
-      <footer>@ Happy Coding</footer>
+      <footer className={styles.footer}>
+        <p>@ Happy Coding</p>
+      </footer>
     </div>
   );
 };

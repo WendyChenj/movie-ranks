@@ -1,0 +1,22 @@
+.container {
+  text-align: center;
+  height: 100vh;
+  position: relative;
+  overflow: scroll;
+}
+
+.header {
+  padding: 48px 0;
+  font-weight: 700;
+  font-size: 2rem;
+  background-color: black;
+  color: white;
+  margin-bottom: 32px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 16px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
