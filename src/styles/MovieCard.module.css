@@ -1,0 +1,8 @@
+.container {
+  display: block;
+  height: 120px;
+  text-align: center;
+  border: 1px solid #dee2e6;
+  box-shadow: 10px 5px 5px #dee2e6;
+  margin-top: 16px;
+}
